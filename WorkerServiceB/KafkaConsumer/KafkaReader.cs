@@ -17,7 +17,7 @@ public class KafkaReader : IDisposable
             GroupId = "my-consumer-group",
             BootstrapServers = "localhost:9092",
             AutoOffsetReset = AutoOffsetReset.Earliest,
-            EnableAutoCommit = false
+            EnableAutoCommit = true
         };
 
         _consumer = new ConsumerBuilder<Ignore, string>(_consumerConfig).Build();
