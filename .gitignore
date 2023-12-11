@@ -1,0 +1,7 @@
+# Rider
+.idea/
+
+# Compiled files
+bin/
+obj/
+*.obj
