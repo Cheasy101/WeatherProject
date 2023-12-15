@@ -5,7 +5,7 @@ Best Practice
 Для генерации доки и тестирования метода использовал swagger.
 
 ## Далее ваше вниманию представляю инструкцию по скачиванию и настройке проекта.
-Инструкция по установке для VisualStudio
+# Инструкция по установке для VisualStudio
 Скачиваем проект с помощью gitBash
 ![image](https://github.com/Cheasy101/WeatherProject/assets/70900183/4880e6dd-4a66-47fc-b839-fbf3f9547b2d)
 Далее разворачиваем проект в VisualStudio и открываем sln файл.
@@ -49,7 +49,7 @@ Best Practice
 8.	![image](https://github.com/Cheasy101/WeatherProject/assets/70900183/6e440994-15bd-414b-bea0-dcd8a47c2726)
 
 .
-Теперь настройки для райдера. Первичные шаги аналогичны.
+## Теперь настройки для райдера. Первичные шаги аналогичны.
 Скачиваем проект, открываем его через райдер.
 
 ![image](https://github.com/Cheasy101/WeatherProject/assets/70900183/b63a7c82-b2a1-4e70-91c3-358deda519fd)
