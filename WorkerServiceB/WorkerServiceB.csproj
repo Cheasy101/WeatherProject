@@ -35,4 +35,8 @@
         <HintPath>..\..\WorkerServiceA\WorkerServiceAClient\bin\Debug\net8.0\WorkerServiceAClient.dll</HintPath>
       </Reference>
     </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WorkerServiceAClient\WorkerServiceAClient.csproj" />
+    </ItemGroup>
 </Project>
