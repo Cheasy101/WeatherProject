@@ -24,7 +24,7 @@ public class KafkaReader : IDisposable
         _consumer.Subscribe("weatherTopic");
     }
 
-    public async Task StartReadingAsync(CancellationToken stoppingToken, Func<string, Task> messageHandler)
+    public async Task StartReadingAsync(CancellationToken stoppingToken, Action<string> messageHandler)
     {
         while (!stoppingToken.IsCancellationRequested)
         {
@@ -34,7 +34,7 @@ public class KafkaReader : IDisposable
 
                 if (result.Message != null)
                 {
-                    await messageHandler(result.Message.Value);
+                    messageHandler(result.Message.Value);
                 }
 
                 await Task.Delay(TimeSpan.FromSeconds(1), stoppingToken);

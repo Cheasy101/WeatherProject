@@ -1,4 +1,3 @@
-using GrpcServiceC.Controllers;
 using GrpcServiceC.Db;
 using GrpcServiceC.Db.Repository;
 using GrpcServiceC.Services;
@@ -13,7 +12,6 @@ builder.Services.AddScoped<WeatherRepository>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<WeatherController>();
 
 var app = builder.Build();
 
